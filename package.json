@@ -2,7 +2,7 @@
   "name": "redwoodsdk-starter",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.12.2",
+  "packageManager": "pnpm@10.13.1",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -15,28 +15,28 @@
     "update:deps": "taze major"
   },
   "dependencies": {
-    "rwsdk": "^0.1.0",
+    "rwsdk": "^0.1.26",
     "valibot": "^1.1.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.16.1",
-    "@cloudflare/vite-plugin": "^1.7.4",
-    "@eslint-react/eslint-plugin": "^1.52.2",
-    "@tailwindcss/vite": "^4.1.10",
-    "@types/node": "^24.0.3",
+    "@antfu/eslint-config": "^4.19.0",
+    "@cloudflare/vite-plugin": "^1.10.1",
+    "@eslint-react/eslint-plugin": "^1.52.3",
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/node": "^24.1.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "eslint": "^9.29.0",
-    "eslint-plugin-better-tailwindcss": "^3.4.1",
+    "eslint": "^9.31.0",
+    "eslint-plugin-better-tailwindcss": "^3.7.1",
     "eslint-plugin-react-compiler": "19.1.0-rc.2",
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
-    "prettier": "^3.6.0",
-    "tailwindcss": "^4.1.10",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.11",
     "taze": "^19.1.0",
     "typescript": "^5.8.3",
-    "vite": "^6.3.5",
-    "wrangler": "^4.21.0"
+    "vite": "^7.0.6",
+    "wrangler": "^4.26.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
